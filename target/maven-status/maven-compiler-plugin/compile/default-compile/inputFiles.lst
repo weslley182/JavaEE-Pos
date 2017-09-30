@@ -1,0 +1,15 @@
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\impl\AbstractRepositoryImpl.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\impl\LogRepositoryImpl.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\domain\BaseEntity.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\impl\LogInterceptor.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\domain\TipoOperacao.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\LogRepository.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\TestEntityRepository.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\RootApplication.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\domain\Log.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\domain\TestEntity.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\rest\TestRest.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\Repository.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\repository\impl\TestEntityRepositoryImpl.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\services\LogService.java
+D:\JAVAEE\jee-blank-master\src\main\java\br\com\rp\rest\LogRest.java
