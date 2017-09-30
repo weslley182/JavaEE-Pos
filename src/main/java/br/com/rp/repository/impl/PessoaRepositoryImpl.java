@@ -15,11 +15,7 @@ public class PessoaRepositoryImpl extends AbstractRepositoryImpl<Pessoa> impleme
 	}
 	
 	@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
-	public Pessoa save(Pessoa object) {
-		
-		if (!object.validarMaiorDeIdade()){
-			throw new IllegalArgumentException(); 
-		}
+	public Pessoa save(Pessoa object) {	
 		return super.save(object);
 	}
 	

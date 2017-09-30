@@ -21,6 +21,9 @@ public class Pessoa extends BaseEntity{
 		return idade;
 	}
 	public void setIdade(int idade) {
+		if (this.idade < 18){
+			throw new IllegalArgumentException("Nao eh permitido menor de idade");
+		}
 		this.idade = idade;
 	}
 	public String getNome() {
