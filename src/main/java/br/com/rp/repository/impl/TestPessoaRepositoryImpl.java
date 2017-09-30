@@ -40,4 +40,13 @@ public class TestPessoaRepositoryImpl extends AbstractTest{
 		repo.save(p2);
 		
 	}
+	
+	@Test(expected = RuntimeException.class)
+	public void naoDeveSalvarPessoaMenoriIdade() throws Throwable{
+		Pessoa p1 = new Pessoa();
+		p1.setNome("Wesley");
+		p1.setCpf("31014551897");
+		p1.setIdade(17);
+		repo.save(p1);		
+	}
 }
