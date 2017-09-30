@@ -14,7 +14,7 @@ public class Pessoa extends BaseEntity{
 	@Column(name = "nome_pessoa")
 	private String nome;
 	
-	@Column(name = "cpf_pessoa")
+	@Column(name = "cpf_pessoa", unique = true)
 	private String cpf;
 	
 	public int getIdade() {
