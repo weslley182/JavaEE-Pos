@@ -26,5 +26,6 @@ public class EstadosTest extends AbstractTest{
 		Estados e = new Estados();				
 		e = serv.getEstadoPorSigla("PR");				
 		assertFalse(e.getDescricao() == "Sao Paulo");		
-	}
+	}	
+
 }

@@ -18,10 +18,11 @@ import javax.ejb.Singleton;
 @Singleton
 public class EstadoCacheService {
 	private Map<String, Estados> estados = new HashMap<>();
+	private int quantidade;
 	
 	@PostConstruct
 	public void carregarEstados(){
-		try {
+		try {			
 			Files.readAllLines(Paths.get("D:/Work/estados.txt")).stream()
 				.forEach(linha ->{
 				String[] estado = linha.split(";");
@@ -37,12 +38,12 @@ public class EstadoCacheService {
 	}
 	
 	@Lock(LockType.READ)
-	public Estados getEstadoPorSigla(String sigla){
+	public Estados getEstadoPorSigla(String sigla){		
 		return estados.get(sigla);
 	}
 	
-	public List<Estados> getEstados(){
+	public List<Estados> getEstados(){		
 		return estados.entrySet().stream().map(entry -> entry.getValue()).collect(Collectors.toList());
-	}
+	}	
 
 }
