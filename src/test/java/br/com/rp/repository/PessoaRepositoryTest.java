@@ -1,18 +1,16 @@
-package br.com.rp.repository.impl;
+package br.com.rp.repository;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import javax.ejb.EJB;
 
 import org.junit.Test;
 
 import br.com.rp.AbstractTest;
-import br.com.rp.domain.Arquivo;
 import br.com.rp.domain.Pessoa;
-import br.com.rp.repository.PessoaRepository;
 
 
-public class TestPessoaRepositoryImpl extends AbstractTest{
+public class PessoaRepositoryTest extends AbstractTest{
 
 	@EJB
 	private PessoaRepository repo;

@@ -1,4 +1,4 @@
-package br.com.rp.services;
+package br.com.rp.repository.service;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,6 +11,7 @@ import org.junit.Test;
 
 import br.com.rp.AbstractTest;
 import br.com.rp.domain.Arquivo;
+import br.com.rp.services.ArquivoService;
 
 public class ArquivoServiceTest extends AbstractTest{
 	
